@@ -1,0 +1,25 @@
+GET {{URL}}/Cars
+
+###
+POST {{URL}}/Cars
+Content-Type: application/json
+
+{
+    "title": "CarFromHttp",
+    "author": "FromHttp"
+}
+
+###
+GET {{URL}}/Cars/1
+
+###
+PUT {{URL}}/Cars/2
+Content-Type: application/json
+
+{
+  "title": "CarUpdated2",
+  "author": "Updated"
+}
+
+###
+DELETE {{URL}}/Cars/6
